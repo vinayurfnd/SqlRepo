@@ -1,0 +1,1 @@
+select * , keys.* from table1 lateral view explode(active_keys) as keys;
